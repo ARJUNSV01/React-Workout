@@ -1,0 +1,19 @@
+[
+    {
+        "id":1,
+        "title":"Appointment for october",
+        "descr":"short description",
+        "isActive":true
+    },{
+        "id":2,
+        "title":"Appointment for november",
+        "descr":"short description",
+        "isActive":false
+    },{
+        "id":3,
+        "title":"Appointment for december",
+        "descr":"short description",
+        "isActive":true
+    }
+]
+ 
