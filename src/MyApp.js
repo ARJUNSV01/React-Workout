@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Homepage from "./pages/Homepage";
 import Header from "./components/Header";
 import DummyPage from "./pages/DummyPage";
+import Usage from "./pages/Usage";
 
 class MyApp extends Component {
   constructor(props) {
@@ -22,7 +23,7 @@ class MyApp extends Component {
       case "home":
         return <Homepage />;
       case "usage":
-       return <DummyPage key="usage" name="Usage" />;
+       return <Usage />;
       case "settings":
        return <DummyPage key="settings" name="Settings"/>;
       case "logout":
